@@ -4,7 +4,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     gap: 20px; 
     text-align: center;
   }
@@ -30,4 +30,18 @@
     object-fit: cover;
     cursor: pointer;
   }
+
+  .sticker-container {
+    margin-bottom: 20px;
+}
+
+.sticker-container img {
+    width: 100px;
+    height: auto;
+}
+
+input[type="number"] {
+    width: 50px;
+    margin-top: 10px;
+}
 
