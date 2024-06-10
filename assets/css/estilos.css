@@ -50,3 +50,14 @@ input[type="number"] {
     font-weight: bold;
 }
 
+#select-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+select, button {
+    margin: 5px;
+    padding: 5px;
+}
+
