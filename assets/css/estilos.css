@@ -61,3 +61,7 @@ select, button {
     padding: 5px;
 }
 
+#result {
+    font-weight: bold;
+}
+

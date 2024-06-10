@@ -21,3 +21,20 @@ function calculateStickers() {
       message.textContent = "Llevas demasiados stickers";
   }
 }
+
+function verifyPassword() {
+  const digit1 = document.getElementById('digit1').value;
+  const digit2 = document.getElementById('digit2').value;
+  const digit3 = document.getElementById('digit3').value;
+
+  const pass = digit1 + digit2 + digit3;
+
+  let message = "password incorrecto";
+  if (pass === "911") {
+      message = "password 1 correcto";
+  } else if (pass === "714") {
+      message = "password 2 es correcto";
+  }
+
+  document.getElementById('result').textContent = message;
+}
